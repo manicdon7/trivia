@@ -5,7 +5,6 @@ import 'tailwindcss/tailwind.css'; // Import Tailwind CSS
 
 export default function Result() {
   const score = localStorage.getItem('quizScore');
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-indigo-600">
       <div className="bg-white p-8 rounded-md shadow-lg transform transition-all duration-500 hover:scale-105">
